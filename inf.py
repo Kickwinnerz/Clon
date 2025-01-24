@@ -10,7 +10,7 @@ import json , sys , hashlib , os , time , marshal
 os.system ('clear')
 os.system ('figlet -f slant INFORMASI |lolcat')
 if sys.platform in ["linux","linux2"]:
-	W = "\033[0m"
+	W = "\033[33;1m"
         G = '\033[32;1m'
         R = '\033[31;1m'
 else:
